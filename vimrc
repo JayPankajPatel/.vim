@@ -1,8 +1,8 @@
 set relativenumber
 set encoding=UTF-8
 
-source $HOME/.vim/custom/mappings/mappings.vim
-source $HOME/.vim/custom/config/config.vim
+runtime! custom/mappings/mappings.vim
+runtime! custom/config/*.vim
 
 call plug#begin()
 Plug 'tpope/vim-sensible'
