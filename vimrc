@@ -1,5 +1,7 @@
 set relativenumber
 set encoding=UTF-8
+set noswapfile
+syntax on
 
 runtime! custom/mappings/mappings.vim
 runtime! custom/config/*.vim

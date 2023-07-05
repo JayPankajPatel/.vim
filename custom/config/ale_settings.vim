@@ -2,8 +2,8 @@
 " these are generic fixers for every file, I will make config files for every
 " lang
 let g:ale_fixers = {
-\ '*': ['remove_trailing_lines', 'trim_whitespace']
-\
+\ '*': ['remove_trailing_lines', 'trim_whitespace'],
+\ 'python': ['flake8', 'black']
 \
 \}
 
