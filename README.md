@@ -1,7 +1,8 @@
 # .vim poetry project integrations
 ## Usage
-Simply activate your poetry project (`poetry shell`) and use
-This particular configuration uses ruff, black, autoimport, isort.
+Simply activate your poetry project (`poetry shell`) and use.  
+
+This particular configuration uses ruff, black, autoimport, and isort.
 Be sure to add these to your dev group dependencies.
 ## Install
 clone and forget about setup,
