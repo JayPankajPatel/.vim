@@ -33,8 +33,8 @@ nnoremap <silent> <C-l> :wincmd l<CR>
 
 " vim pane closure mapping end
 " Centered scrolling start
-inoremap <silent> <C-d> <C-d>zz<CR>
-inoremap <silent> <C-u> <C-u>zz<CR>
+nnoremap <silent> <C-d> <C-d>zz<CR>
+nnoremap <silent> <C-u> <C-u>zz<CR>
 " Centered scrolling end
 
 " NERDTree mappings start
@@ -45,8 +45,10 @@ nnoremap <silent> <C-n> :NERDTreeToggle<CR>
 
 " ALE mappings start
 
-nnoremap gd :ALEGoToDefinition<CR>
-nnoremap K :ALEHover<CR>
+nnoremap <silent> gd :ALEGoToDefinition<CR>
+nnoremap <silent> K :ALEHover<CR>
+nnoremap <silent> ]d :ALENextWrap<CR>
+nnoremap <silent> [d :ALEPreviousWrap<CR>
 nnoremap <leader>ca :ALECodeAction<CR>
 
 " ALE mappings end
