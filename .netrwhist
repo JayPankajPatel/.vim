@@ -1,5 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =1
+let g:netrw_dirhistcnt =2
+let g:netrw_dirhist_2='/home/jay/.vim'
 let g:netrw_dirhist_1='/home/jay/Repos/SALAD/src/salad'
 let g:netrw_dirhist_0='/home/jay/Repos/SALAD/src'
 let g:netrw_dirhist_9='/home/jay/Repos/SALAD'
@@ -9,4 +10,3 @@ let g:netrw_dirhist_6='/home/jay/.vim/custom/config'
 let g:netrw_dirhist_5='/home/jay/.vim/custom'
 let g:netrw_dirhist_4='/home/jay/.vim'
 let g:netrw_dirhist_3='/home/jay/.vim/custom/config'
-let g:netrw_dirhist_2='/home/jay/.vim/custom'
