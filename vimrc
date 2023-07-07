@@ -1,4 +1,3 @@
-colorscheme catppuccin_macchiato
 set termguicolors
 set relativenumber
 set encoding=UTF-8
@@ -7,9 +6,6 @@ set noshowmode
 syntax on
 set mouse=a
 set mousemodel=popup_setpos
-
-runtime! custom/mappings/mappings.vim
-runtime! custom/config/*.vim
 
 call plug#begin()
 Plug 'tpope/vim-sensible'
@@ -25,3 +21,6 @@ Plug 'ryanoasis/vim-devicons'
 Plug 'editorconfig/editorconfig-vim'
 Plug 'catppuccin/vim', { 'as': 'catppuccin' }
 call plug#end()
+
+runtime! custom/mappings/mappings.vim
+runtime! custom/config/*.vim
