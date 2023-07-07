@@ -50,5 +50,6 @@ nnoremap <silent> K :ALEHover<CR>
 nnoremap <silent> ]d :ALENextWrap<CR>
 nnoremap <silent> [d :ALEPreviousWrap<CR>
 nnoremap <leader>ca :ALECodeAction<CR>
+nnoremap <silent> <leader>at :ALEToggle<CR>
 
 " ALE mappings end

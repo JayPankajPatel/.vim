@@ -1,8 +1,10 @@
+colorscheme catppuccin_macchiato
+set termguicolors
 set relativenumber
 set encoding=UTF-8
 set noswapfile
+set noshowmode
 syntax on
-set t_Co=256
 set mouse=a
 set mousemodel=popup_setpos
 
@@ -12,6 +14,7 @@ runtime! custom/config/*.vim
 call plug#begin()
 Plug 'tpope/vim-sensible'
 Plug 'tpope/vim-commentary'
+Plug 'tpope/vim-surround'
 Plug 'preservim/nerdtree', { 'on': 'NERDTreeToggle' }
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
@@ -20,4 +23,5 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'dense-analysis/ale'
 Plug 'ryanoasis/vim-devicons'
 Plug 'editorconfig/editorconfig-vim'
+Plug 'catppuccin/vim', { 'as': 'catppuccin' }
 call plug#end()
