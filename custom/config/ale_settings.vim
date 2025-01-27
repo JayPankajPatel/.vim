@@ -3,7 +3,8 @@
 " lang
 let g:ale_fixers = {
 \ '*': ['remove_trailing_lines', 'trim_whitespace'],
-\ 'python': ['flake8', 'black']
+\ 'python': ['flake8', 'black'],
+\ 'c': ['clangd']
 \
 \}
 
