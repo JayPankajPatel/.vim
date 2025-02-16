@@ -18,6 +18,7 @@ endfunction
 nnoremap <silent> <leader>b :call GoToBuffer()<CR>
 nnoremap <silent> <leader>b :call GoToBuffer()<CR>
 nnoremap <tab> :bnext<CR>
+nnoremap <S-Tab> :bprevious<CR>
 
 " -- Vim panes mappings
 " vim motions mappings with panes start

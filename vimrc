@@ -1,6 +1,7 @@
 set termguicolors
 set relativenumber
 set encoding=UTF-8
+set clipboard^=unnamed,unnamedplus
 set noswapfile
 set noshowmode
 syntax on
