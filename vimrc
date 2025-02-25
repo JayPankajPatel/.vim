@@ -17,18 +17,18 @@ set shiftwidth=4
 set expandtab
 
 call plug#begin()
-Plug 'tpope/vim-sensible'
-Plug 'tpope/vim-commentary'
-Plug 'tpope/vim-surround'
-Plug 'preservim/nerdtree', { 'on': 'NERDTreeToggle'  }
-Plug 'vim-airline/vim-airline'
-Plug 'vim-airline/vim-airline-themes'
-Plug 'Donaldttt/fuzzyy'
-Plug 'jiangmiao/auto-pairs'
-Plug 'dense-analysis/ale'
-Plug 'ryanoasis/vim-devicons'
-Plug 'editorconfig/editorconfig-vim'
-Plug 'catppuccin/vim', { 'as': 'catppuccin'  }
+    Plug 'tpope/vim-sensible'
+    Plug 'tpope/vim-commentary'
+    Plug 'tpope/vim-surround'
+    Plug 'preservim/nerdtree', { 'on': 'NERDTreeToggle'  }
+    Plug 'vim-airline/vim-airline'
+    Plug 'vim-airline/vim-airline-themes'
+    Plug 'Donaldttt/fuzzyy', {'branch': 'vim8'} "more compatible other vim versions
+    Plug 'jiangmiao/auto-pairs'
+    Plug 'dense-analysis/ale'
+    Plug 'ryanoasis/vim-devicons'
+    Plug 'editorconfig/editorconfig-vim'
+    Plug 'catppuccin/vim', { 'as': 'catppuccin'  }
 call plug#end()
 
 runtime! custom/mappings/mappings.vim
