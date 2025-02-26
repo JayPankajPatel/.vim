@@ -7,7 +7,7 @@ nnoremap <silent> <leader>r :set number!<CR>
 nnoremap <silent> <leader>rn :set relativenumber!<CR>
 
 " this closes panes
-nnoremap <silent><leader>x :close<CR>
+nnoremap <silent><leader>x :close!<CR>
 
 " -- Vim buffer mappings
 function! GoToBuffer()
