@@ -29,6 +29,7 @@ call plug#begin()
     Plug 'ryanoasis/vim-devicons'
     Plug 'editorconfig/editorconfig-vim'
     Plug 'catppuccin/vim', { 'as': 'catppuccin'  }
+    Plug 'vhda/verilog_systemverilog.vim'
 call plug#end()
 
 runtime! custom/mappings/mappings.vim
