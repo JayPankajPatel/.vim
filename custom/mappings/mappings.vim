@@ -46,9 +46,13 @@ nnoremap <silent> <C-n> :NERDTreeToggle<CR>
 
 " ALE mappings start
 
-nnoremap gd :ALEGoToDefinition<CR>
-nnoremap K :ALEHover<CR>
+nnoremap <silent>gd :ALEGoToDefinition<CR>
+nnoremap <silent>[d :ALEPrevious<CR>
+nnoremap <silent>]d :ALENext<CR>
+nnoremap <silent>K :ALEHover<CR>
+nnoremap <leader>r :ALERename<CR>
 nnoremap <leader>ca :ALECodeAction<CR>
 nnoremap <leader>rf :ALEFindReferences<CR>
+nnoremap <leader>d :ALEPopulateLocList<CR>
 
 " ALE mappings end
