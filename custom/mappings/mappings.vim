@@ -56,3 +56,8 @@ nnoremap <leader>rf :ALEFindReferences<CR>
 nnoremap <leader>d :ALEPopulateLocList<CR>
 
 " ALE mappings end
+
+" Fuzzy Start
+    nnoremap <leader>fz :FuzzyInfiles<CR>
+    nnoremap <leader>fg :FuzzyAg<CR>
+" Fuzzy End

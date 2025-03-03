@@ -34,3 +34,4 @@ call plug#end()
 
 runtime! custom/mappings/mappings.vim
 runtime! custom/config/*.vim
+runtime! custom/config/ftplugin/*.vim
