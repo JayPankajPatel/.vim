@@ -14,6 +14,6 @@ let g:ale_lint_on_save = 1
 
 " Set ALE fixers (optional: use Verilator for formatting)
 
-let g:ale_fixers = {'verilog_systemverilog': ['verilator']}
+"let g:ale_fixers = {'verilog_systemverilog': ['verilator']}
 
 
