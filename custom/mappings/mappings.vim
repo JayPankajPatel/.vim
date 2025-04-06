@@ -30,6 +30,14 @@ nnoremap <silent> <C-l> :wincmd l<CR>
 
 " vim motions mappings with panes end
 
+"Horizontal pane remap start
+"originally it is Ctrl + W S 
+
+nnoremap <silent> <C-w>h :split<CR>
+
+
+"Horizontal pane remap end
+
 " vim pane closure mapping start
 
 " vim pane closure mapping end
