@@ -7,7 +7,7 @@ clone to `$HOME`, open vim and simply run `:PlugInstall`
 
 ## Install TLDR
 ```
-git clone https://github.com/JayPankajPatel/.vim.git $HOME && vim -E -c PlugInstall -c q
+git clone https://github.com/JayPankajPatel/.vim.git && vim -E -c PlugInstall -c q
 ```
 ## Configs
 Mappings and configurations can be found under `custom` please tweak them to your liking.
